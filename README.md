@@ -2,14 +2,16 @@
 
 Browse our Android apps on the [Ekelola App Library](https://ekelola.com/app-library/).
 
-| App | Android support | Latest stable | Description |
+| App | Android support | Free download | Description |
 | --- | --- | --- | --- |
-| [TargetCalendar](apps/targetcalendar/) | Android 8.0 and later | [1.2.0](https://github.com/segunorija/app-releases/releases/tag/targetcalendar-v1.2.0) | Offline daily GBP targets and actuals, with Settings, themes, overtime and CSV import/export. |
+| [TargetCalendar Lite](apps/targetcalendar/) | Android 8.0 and later | [1.1.0 APK](https://github.com/segunorija/app-releases/releases/download/targetcalendar-v1.1.0/TargetCalendar-1.1.0.apk) | Offline daily GBP targets and actuals, monthly summaries and Excel export. |
 
-TargetCalendar 1.2.0 promotes the accepted 1.2.0-rc.1 APK unchanged. There is no newer active TargetCalendar candidate; previous releases and pre-releases remain available in its release history.
+Lite is the free offering based on the unchanged TargetCalendar 1.1.0 APK. Its installed name remains TargetCalendar.
+
+A paid TargetCalendar edition based on 1.2.0 is planned for Google Play at £1.99 as a one-time purchase. It is not yet available on Google Play.
 
 ## Release files
 
-Each app has a folder under `apps/`. Signed APKs, SHA-256 checksum files and available verification/provenance metadata are attached to versioned GitHub Releases. Tags follow `<app>-v<version>`, for example `targetcalendar-v1.1.0`.
+Signed APKs, checksums and verification metadata are attached to versioned GitHub Releases. Use the explicit Lite link above for the free offering. Do not use a generic latest-release link to select the free edition.
 
-Testing candidates use a suffix such as `targetcalendar-v1.2.0-rc.1` and are marked **Pre-release**. They do not replace the latest stable release. The app's download page distinguishes stable and candidate links and records the installed Android version/build. APK binaries are release attachments, not Git source files.
+Existing 1.2.0 users should keep their installed app and export important records; do not uninstall or downgrade to obtain Lite. See the [app page](apps/targetcalendar/) for features and data guidance.
