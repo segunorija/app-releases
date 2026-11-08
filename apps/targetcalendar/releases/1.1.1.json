@@ -52,5 +52,10 @@
     "separate_paid_data_retained": true
   },
   "existing_1_2_0_users_should_keep_their_app": true,
-  "no_1_2_0_to_lite_migration_claimed": true
+  "no_1_2_0_to_lite_migration_claimed": true,
+  "known_limitations": [
+    "Historical Lite system-bar handling retains low status-bar icon contrast on the tested API 37/device dark-mode combination.",
+    "Other Android versions, devices and OEM launcher masks need further physical coverage.",
+    "No safe 1.2.0-to-Lite migration is claimed."
+  ]
 }

@@ -1,5 +1,9 @@
 *.apk
 *.aab
+*.apks
+*.idsig
 *.jks
 *.keystore
 keystore.properties
+signing.properties
+.release-signing/
