@@ -2,28 +2,32 @@
 
 Track daily GBP targets and actuals in a month-view calendar. Entries stay on your device. The app works offline without an account or network permission.
 
-## Free download — version 1.1.0
+## Free download — version 1.1.1
 
-TargetCalendar Lite is the free offering based on the original, unchanged TargetCalendar 1.1.0 APK (build 3), for Android 8.0 and later. The installed app still displays its original TargetCalendar name; Lite describes the download offering.
+TargetCalendar Lite **1.1.1 / build 6** updates the launcher and in-app logo with a green calendar and red LITE ribbon. It preserves Lite's calendar behaviour, storage and **Export to Excel**. Android 8.0 (API 26) and later; installed name **TargetCalendar**, package `com.ekelola.targetcalendar`.
 
 - Daily targets and actuals in a monthly calendar.
 - Status colours and ticks, plus monthly totals and averages.
-- Export to Excel for saving or sharing recorded months.
+- Excel workbook export for saving or sharing recorded months.
 
-[Download TargetCalendar Lite 1.1.0 (APK)](https://github.com/segunorija/app-releases/releases/download/targetcalendar-v1.1.0/TargetCalendar-1.1.0.apk)
+[Download TargetCalendar Lite 1.1.1 (APK)](https://github.com/segunorija/app-releases/releases/download/targetcalendar-v1.1.1/TargetCalendar-1.1.1.apk)
 
-[Release notes](https://github.com/segunorija/app-releases/releases/tag/targetcalendar-v1.1.0) · [SHA-256 checksum](https://github.com/segunorija/app-releases/releases/download/targetcalendar-v1.1.0/TargetCalendar-1.1.0.apk.sha256)
+[Release notes](https://github.com/segunorija/app-releases/releases/tag/targetcalendar-v1.1.1) · [SHA-256 checksum](https://github.com/segunorija/app-releases/releases/download/targetcalendar-v1.1.1/TargetCalendar-1.1.1.apk.sha256) · [Verification metadata](releases/1.1.1.json)
 
-APK SHA-256: `f8dc47dd1e6f46ae91ea769df71e7c36d5291fc7928193769935371b17c783f4`.
+## Updating Lite safely
 
-## Planned paid edition
+Compatible Lite 1.1.0 users should **install over the existing app**. Keep a workbook export before updating. **Do not uninstall or clear app data**: that deletes local records, and Lite has no import/restore. This update preserves the permanent signing identity and application ID. Android orders updates by versionCode: 1.1.1 uses code 6, above previously distributed legacy codes 3 and 4.
 
-TargetCalendar's Google Play edition is planned at £1.99 as a one-time purchase, based on version 1.2.0. It is not yet available on Google Play. It adds default-target settings, Monday/Sunday week start, Light/Dark/System appearance, accent choices, CSV import/export, overtime status and offline help. CSV replaces native Excel-workbook export in this edition; CSV files contain records, not preferences.
+**Existing 1.2.0/RC users should keep their installation and CSV exports.** Lite 1.1.1 is an artwork update to the older Lite feature set; it lacks 1.2.0's Settings, themes and CSV import/export. Its higher code does not make it a recommended update for 1.2.0. A 1.2.0-to-Lite migration has not been tested or certified safe. Do not uninstall, clear data or install Lite over it to change editions.
 
-## Existing installations and data
+## Paid edition — coming soon
 
-Do not downgrade an existing 1.2.0 installation to 1.1.0 or uninstall it to install Lite. Export important records before making changes. Uninstalling or clearing app data removes local records. Version 1.1.0 does not support import/restore. Changing distribution does not revoke previously downloaded copies.
+TargetCalendar's paid Google Play edition is planned at **£1.99, one-time purchase**, based on the accepted 1.2.0 feature set. It is not yet available on Play. It adds default-target settings, Monday/Sunday week start, Light/Dark/System appearance, accent choices, CSV import/export, overtime status and offline help.
 
-The 1.1.0 binary and signing identity are unchanged. A website label does not create a separate Android application or implement purchase enforcement. Package identity, data migration and Play distribution must be settled before the paid launch.
+Paid uses `com.ekelola.targetcalendar.paid`, installs separately, and does not automatically migrate records or preferences. Lite 1.1.0 and 1.1.1 export native Excel workbooks; paid imports CSV. Convert every monthly sheet to one UTF-8 comma-delimited file with `Date,Target,Actual` columns, ISO dates, numeric GBP decimals and blanks distinct from zero. Omit each source sheet's header, totals and status. Retain the original workbook and inspect the paid import preview before confirming. Existing 1.2.0 users can export CSV directly. No paid binaries are distributed here.
+
+## Earlier releases
+
+[Lite 1.1.0 release](https://github.com/segunorija/app-releases/releases/tag/targetcalendar-v1.1.0) is retained unchanged as an earlier release. Historical 1.2.0/RC records under `releases/` describe withdrawn distributions and are not current download guidance.
 
 [Ekelola App Library](https://ekelola.com/app-library/)

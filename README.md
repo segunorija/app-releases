@@ -4,9 +4,9 @@ Browse our Android apps on the [Ekelola App Library](https://ekelola.com/app-lib
 
 | App | Android support | Free download | Description |
 | --- | --- | --- | --- |
-| [TargetCalendar Lite](apps/targetcalendar/) | Android 8.0 and later | [1.1.0 APK](https://github.com/segunorija/app-releases/releases/download/targetcalendar-v1.1.0/TargetCalendar-1.1.0.apk) | Offline daily GBP targets and actuals, monthly summaries and Excel export. |
+| [TargetCalendar Lite](apps/targetcalendar/) | Android 8.0 and later | [1.1.1 APK](https://github.com/segunorija/app-releases/releases/download/targetcalendar-v1.1.1/TargetCalendar-1.1.1.apk) | Offline daily GBP targets and actuals, monthly summaries and Excel export. |
 
-Lite is the free offering based on the unchanged TargetCalendar 1.1.0 APK. Its installed name remains TargetCalendar.
+Lite 1.1.1 adds the green calendar artwork with a red LITE ribbon. It preserves the original Lite calendar, records and Excel export. Its installed name remains TargetCalendar. Compatible 1.1.0 users can install it over the existing app without uninstalling or clearing data; 1.1.0 remains an earlier release.
 
 A paid TargetCalendar edition based on 1.2.0 is planned for Google Play at £1.99 as a one-time purchase. It is not yet available on Google Play.
 
